@@ -53,4 +53,45 @@ if st.button("Get Notes"):
 
 
 
+import streamlit as st
 
+# Your main app code goes here
+
+# Sidebar Section
+def sidebar():
+    st.sidebar.header("About the Project")
+    st.sidebar.markdown(
+        """
+        ## YouTube Video Summarizer
+
+        This project is designed to help users quickly grasp the key points and notes from YouTube videos. By leveraging advanced natural language processing techniques, the application extracts and summarizes the content of videos, allowing users to save time and focus on the most important information.
+
+        ### Key Features:
+        - **Video Summarization**: Automatically generates concise summaries of YouTube videos.
+        - **Note-taking**: Provides users with easy-to-read notes that highlight essential points.
+        - **User -Friendly Interface**: Simple and intuitive design for seamless navigation.
+        - **Accessibility**: Ideal for students, professionals, and anyone looking to enhance their learning experience.
+
+        ### How It Works:
+        1. Enter the URL of the YouTube video you want to summarize.
+        2. The application processes the video and extracts the audio.
+        3. The audio is then transcribed and summarized into key points and notes.
+        4. View and download your summarized notes for future reference.
+
+        Start summarizing your favorite YouTube videos today!
+        """
+    )
+
+    # Connect with Me Section
+    st.sidebar.header("Connect with Me")
+    st.sidebar.markdown(
+        """
+        - [GitHub](https://github.com/ayushdubey570)
+        - [LinkedIn](https://www.linkedin.com/in/ayushdubey570)
+        - [Twitter](https://twitter.com/ayushdubey570)
+        - [Email](mailto:ayushdubey570@example.com)
+        """
+    )
+
+# Call the sidebar function
+sidebar()
