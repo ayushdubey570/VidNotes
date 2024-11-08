@@ -41,22 +41,32 @@ In an age where video content is prevalent, it can be time-consuming to extract 
 To set up VidNotes on your local environment, follow these steps:
 
 1. Clone the Repository
-  ```git clone https://github.com/ayushdubey570/VidNotes.git```
+ ```
+ git clone https://github.com/ayushdubey570/VidNotes.git
+ ```
 
-2. Install Required Packages
-  ```pip install -r requirements.txt```
+3. Install Required Packages
+```
+pip install -r requirements.txt
+```
 
-3. Set Up Environment Variables
+5. Set Up Environment Variables
 - Create a .env file in the root directory of your project.
 - Add your Google API key in the following format:
 
-  ```GOOGLE_API_KEY="your_api_key_here"```
+```
+GOOGLE_API_KEY="your_api_key_here"
+```
 
 4. Run the Application
-  ```streamlit run app.py```
+```
+streamlit run app.py
+```
 
-5. Access the Application
-    ```Local URL: http://localhost:8503```
+6. Access the Application
+```
+Local URL: http://localhost:8503
+```
 
 
 ## Screenshorts:
