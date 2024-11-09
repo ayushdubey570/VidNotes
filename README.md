@@ -71,7 +71,7 @@ Local URL: http://localhost:8503
 
 ## Screenshorts:
 
-![project_1](https://github.com/user-attachments/assets/528cd5b4-195a-41f0-b7ee-e14bf0d191c0)
+![pic1](https://github.com/user-attachments/assets/7604676e-906f-4740-9e18-f94b7fa30ab5)
 ![project_2](https://github.com/user-attachments/assets/7b774a36-d57f-4fe7-87f1-d188884d785f)
 ![project_3](https://github.com/user-attachments/assets/7da546da-e492-4ae7-b86f-94923165fd68)
 
