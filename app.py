@@ -58,7 +58,7 @@ def sidebar():
     st.sidebar.header("About the Project")
     st.sidebar.markdown(
         """
-        ## YouTube Video Summarizer
+        ## VidNotes:Transform Videos into Notes
 
         This project is designed to help users quickly grasp the key points and notes from YouTube videos. By leveraging advanced natural language processing techniques, the application extracts and summarizes the content of videos in the form of text, allowing users to save time and focus on the most important information.
 
